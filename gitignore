@@ -1,0 +1,20 @@
+# API keys
+.env
+
+# PDF data folder (don't upload personal documents)
+data/
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+env/
+
+# Chroma DB local files
+chroma_db/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
